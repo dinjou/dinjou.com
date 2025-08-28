@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>https://dinjou.com/</link>
+    <description>Recent content in Home on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dinjou.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Finding Purpose in Technology</title>
+      <link>https://dinjou.com/blog/personal/first-personal-post/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/personal/first-personal-post/</guid>
+      <description>Technology has always fascinated me, but recently I&amp;rsquo;ve been thinking about the deeper purpose behind what we build and how we use it.
+Beyond the Code When I first started learning about cybersecurity and network operations, I was drawn to the technical challenges. But as I&amp;rsquo;ve grown in my career, I&amp;rsquo;ve realized that the most rewarding aspects aren&amp;rsquo;t just about solving complex problems—they&amp;rsquo;re about protecting people and organizations.
+The Human Element In my role monitoring networks across 26 states, I&amp;rsquo;m not just managing infrastructure.</description>
+    </item>
+    <item>
+      <title>Sample CTF Challenge: Web Exploitation</title>
+      <link>https://dinjou.com/blog/ctf/sample-ctf-writeup/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/ctf/sample-ctf-writeup/</guid>
+      <description>This is a sample CTF writeup to demonstrate how I&amp;rsquo;ll structure my cybersecurity challenge solutions.
+Challenge Overview Challenge Name: Sample Web App
+Category: Web Exploitation
+Difficulty: Easy
+Points: 100
+Initial Reconnaissance The challenge presents us with a simple web application. Let&amp;rsquo;s start by understanding what we&amp;rsquo;re working with:
+1 2 # Basic port scan nmap -sC -sV target.com Vulnerability Discovery After exploring the application, I identified a potential SQL injection vulnerability in the login form.</description>
+    </item>
+    <item>
+      <title>Welcome to My Professional Blog</title>
+      <link>https://dinjou.com/blog/professional/first-professional-post/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/professional/first-professional-post/</guid>
+      <description>Welcome to my professional blog! This is where I&amp;rsquo;ll be sharing insights from my career journey, technical learnings, and thoughts on the technology industry.
+What to Expect In this blog, I&amp;rsquo;ll be writing about:
+Career milestones and achievements Technical insights from my work in cybersecurity and network operations Industry observations and trends Professional development tips and lessons learned My Background As a Network Operations Center Agent and CRM Admin at Smartaira, I work with enterprise networks across 26 states.</description>
+    </item>
+  </channel>
+</rss>

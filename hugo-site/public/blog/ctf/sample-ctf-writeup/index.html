@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample CTF Challenge: Web Exploitation - Spencer - Personal Blog &amp; Portfolio</title>
+    <meta name="description" content="A walkthrough of a web exploitation challenge demonstrating common vulnerabilities">
+    
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Oswald:wght@400&display=swap" rel="stylesheet">
+    
+    
+    <script src="/js/scripts.js" defer></script>
+    
+    
+    <script>
+    if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+    }
+    </script>
+    
+    
+    <meta name="generator" content="Hugo 0.120.4">
+</head>
+<body class="fade-in">
+    <header>
+        <div class="header-content">
+    <img src="/images/profile.png" alt="Profile Picture" class="circular-photo">
+    
+    <h1 class="page-title">Spencer - Personal Blog &amp; Portfolio</h1>
+    
+    <div class="header-icons">
+        <a href="/contact" class="messages-icon">
+            <img src="/images/message.png" alt="Contact" class="icon">
+        </a>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <img src="/images/theme-light-dark.png" alt="Toggle Theme" class="icon">
+        </button>
+    </div>
+</div>
+
+    </header>
+
+    <main>
+        
+<article>
+    
+        <h2 class="body-text-header">Sample CTF Challenge: Web Exploitation</h2>
+    
+    
+    
+    
+    <p>This is a sample CTF writeup to demonstrate how I&rsquo;ll structure my cybersecurity challenge solutions.</p>
+<h2 id="challenge-overview">Challenge Overview</h2>
+<p><strong>Challenge Name</strong>: Sample Web App<br>
+<strong>Category</strong>: Web Exploitation<br>
+<strong>Difficulty</strong>: Easy<br>
+<strong>Points</strong>: 100</p>
+<h2 id="initial-reconnaissance">Initial Reconnaissance</h2>
+<p>The challenge presents us with a simple web application. Let&rsquo;s start by understanding what we&rsquo;re working with:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Basic port scan</span>
+</span></span><span style="display:flex;"><span>nmap -sC -sV target.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="vulnerability-discovery">Vulnerability Discovery</h2>
+<p>After exploring the application, I identified a potential SQL injection vulnerability in the login form.</p>
+<h2 id="exploitation">Exploitation</h2>
+<p>The vulnerability was in the username field:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#e6db74">&#39; OR 1=1 --
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>This bypassed the authentication and gave us access to the admin panel.</p>
+<h2 id="flag-capture">Flag Capture</h2>
+<p>Once inside the admin panel, the flag was located in the source code:</p>
+<pre tabindex="0"><code>flag{this_is_a_sample_flag}
+</code></pre><h2 id="lessons-learned">Lessons Learned</h2>
+<ul>
+<li>Always test input validation thoroughly</li>
+<li>SQL injection remains a common vulnerability</li>
+<li>Source code inspection can reveal hidden information</li>
+</ul>
+<h2 id="tools-used">Tools Used</h2>
+<ul>
+<li>Burp Suite</li>
+<li>SQLMap</li>
+<li>Browser Developer Tools</li>
+</ul>
+<hr>
+<p><em>This is a sample writeup to demonstrate the format. Real CTF writeups will include actual challenges and solutions.</em></p>
+
+</article>
+
+    </main>
+
+    <footer>
+        
+
+
+    </footer>
+</body>
+</html>

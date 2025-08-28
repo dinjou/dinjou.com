@@ -1,0 +1,85 @@
+baseURL = 'https://dinjou.com/'
+languageCode = 'en-us'
+title = 'Spencer - Personal Blog & Portfolio'
+theme = ''
+
+# Enable features
+enableGitInfo = false
+enableEmoji = true
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "professional"
+    name = "Professional"
+    url = "/professional/"
+    weight = 3
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+  [[menu.main]]
+    identifier = "education"
+    name = "Education"
+    url = "/education/"
+    weight = 5
+  [[menu.main]]
+    identifier = "interests"
+    name = "Interests"
+    url = "/interests/"
+    weight = 6
+  [[menu.main]]
+    identifier = "socials"
+    name = "Socials"
+    url = "/socials/"
+    weight = 7
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 8
+
+# Blog sections
+[params]
+  description = "Tech enthusiast with experience in cybersecurity, network operations, and data analytics"
+  author = "Spencer"
+  
+  # Social media
+  github = "your-github"
+  linkedin = "your-linkedin"
+  twitter = "your-twitter"
+  
+  # Theme settings
+  enableDarkMode = true
+  enableSearch = true
+
+# Taxonomies for blog posts
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true

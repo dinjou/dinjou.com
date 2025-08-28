@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Nunito+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Oswald:wght@400&display=swap" rel="stylesheet">
+    
+    <!-- JavaScript -->
+    <script src="{{ "js/scripts.js" | relURL }}" defer></script>
+    
+    <!-- Theme Toggle Script -->
+    <script>
+    if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+    }
+    </script>
+    
+    <!-- Hugo internal -->
+    {{ hugo.Generator }}
+</head>
+<body class="fade-in">
+    <header>
+        {{ partial "header.html" . }}
+    </header>
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        {{ partial "footer.html" . }}
+    </footer>
+</body>
+</html>

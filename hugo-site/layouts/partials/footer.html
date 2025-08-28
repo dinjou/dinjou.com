@@ -1,0 +1,6 @@
+{{ if .Params.prev_button }}
+    <a href="{{ .Params.prev_button.url }}" class="prev-button">{{ .Params.prev_button.text }}</a>
+{{ end }}
+{{ if .Params.next_button }}
+    <a href="{{ .Params.next_button.url }}" class="next-button">{{ .Params.next_button.text }}</a>
+{{ end }}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ctf on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>https://dinjou.com/categories/ctf/</link>
+    <description>Recent content in ctf on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dinjou.com/categories/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample CTF Challenge: Web Exploitation</title>
+      <link>https://dinjou.com/blog/ctf/sample-ctf-writeup/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/ctf/sample-ctf-writeup/</guid>
+      <description>This is a sample CTF writeup to demonstrate how I&amp;rsquo;ll structure my cybersecurity challenge solutions.
+Challenge Overview Challenge Name: Sample Web App
+Category: Web Exploitation
+Difficulty: Easy
+Points: 100
+Initial Reconnaissance The challenge presents us with a simple web application. Let&amp;rsquo;s start by understanding what we&amp;rsquo;re working with:
+1 2 # Basic port scan nmap -sC -sV target.com Vulnerability Discovery After exploring the application, I identified a potential SQL injection vulnerability in the login form.</description>
+    </item>
+  </channel>
+</rss>

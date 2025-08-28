@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article>
+    {{ if .Title }}
+        <h2 class="body-text-header">{{ .Title }}</h2>
+    {{ end }}
+    
+    {{ if .Params.show_hr }}
+        <hr>
+    {{ end }}
+    
+    {{ .Content }}
+</article>
+{{ end }}

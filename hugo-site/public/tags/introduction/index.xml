@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>introduction on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>https://dinjou.com/tags/introduction/</link>
+    <description>Recent content in introduction on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dinjou.com/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Professional Blog</title>
+      <link>https://dinjou.com/blog/professional/first-professional-post/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/professional/first-professional-post/</guid>
+      <description>Welcome to my professional blog! This is where I&amp;rsquo;ll be sharing insights from my career journey, technical learnings, and thoughts on the technology industry.
+What to Expect In this blog, I&amp;rsquo;ll be writing about:
+Career milestones and achievements Technical insights from my work in cybersecurity and network operations Industry observations and trends Professional development tips and lessons learned My Background As a Network Operations Center Agent and CRM Admin at Smartaira, I work with enterprise networks across 26 states.</description>
+    </item>
+  </channel>
+</rss>
