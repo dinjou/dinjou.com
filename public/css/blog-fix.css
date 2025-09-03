@@ -1,0 +1,47 @@
+/* Emergency fix for blog scrolling */
+
+/* Force scrolling on all content pages, regardless of class */
+.blog-single-page,
+.content-page,
+.content-page-body {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+}
+
+body.blog-page {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+}
+
+/* Override any conflicting portfolio styles */
+body .blog-container,
+.content-page .portfolio-wrapper,
+.content-page .portfolio-card,
+.content-page-body .portfolio-wrapper,
+.content-page-body .portfolio-card {
+  height: auto !important;
+  min-height: unset !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure the wrapper doesn't constrain height */
+.blog-wrapper {
+  height: auto !important;
+  min-height: 100vh !important;
+}
+
+/* Fix for portfolio container only - but not for content pages */
+.portfolio-container:not(.content-page):not(.blog-single-page) {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* Fix for blog content width */
+.blog-content {
+  width: 100% !important;
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+}

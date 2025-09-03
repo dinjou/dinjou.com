@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="portfolio-container content-page">
+  <div class="portfolio-wrapper">
+    <!-- Simple Header for non-home pages -->
+    <header class="portfolio-header">
+      <div class="profile-section">
+        <div class="profile-image-container">
+          <a href="/">
+            <img src="{{ "images/profile.png" | relURL }}" alt="Spencer Lay" class="profile-image glass-card">
+          </a>
+          <div class="profile-gradient"></div>
+        </div>
+        <div class="profile-info">
+          <h1><a href="/" style="color: inherit; text-decoration: none;">Spencer K. Lay</a></h1>
+          <p class="profile-tagline">{{ .Title }}</p>
+        </div>
+      </div>
+      
+      <!-- Simple Navigation -->
+      <nav style="margin-top: 1rem; text-align: center;">
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="/" class="blog-badge glass-card">Home</a>
+          <a href="/about/" class="blog-badge glass-card">About</a>
+          <a href="/blog/personal/projects/" class="blog-badge glass-card">Projects</a>
+          <a href="/professional/" class="blog-badge glass-card">Professional</a>
+          <a href="/contact/" class="blog-badge glass-card">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="portfolio-card glass-card" style="margin-bottom: 2rem;">
+      <div class="card-content">
+        {{ .Content }}
+      </div>
+    </div>
+
+    <!-- Back to Home -->
+    <div style="text-align: center;">
+      <a href="/" class="contact-button glass-card glass-hover" style="width: auto; height: auto; padding: 0.75rem 1.5rem; border-radius: var(--radius);">
+        ← Back to Portfolio
+      </a>
+    </div>
+  </div>
+</div>
+{{ end }}
+

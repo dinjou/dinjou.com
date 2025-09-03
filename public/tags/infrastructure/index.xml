@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infrastructure on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>http://localhost:1313/tags/infrastructure/</link>
+    <description>Recent content in Infrastructure on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Homelab Infrastructure</title>
+      <link>http://localhost:1313/blog/personal/projects/homelab/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/personal/projects/homelab/</guid>
+      <description>&lt;h1 id=&#34;personal-homelab-infrastructure&#34;&gt;Personal Homelab Infrastructure&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;My personal homelab serves as a dedicated environment for learning, experimenting, and developing skills in networking, cybersecurity, and enterprise technologies. This ongoing project allows me to gain hands-on experience with professional-grade equipment and software in a controlled environment, directly supporting my career development in information systems and cybersecurity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-architecture&#34;&gt;Infrastructure Architecture&lt;/h2&gt;&#xA;&lt;h3 id=&#34;physical-hardware&#34;&gt;Physical Hardware&lt;/h3&gt;&#xA;&lt;h4 id=&#34;core-network-equipment&#34;&gt;Core Network Equipment&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Router&lt;/strong&gt;: Ubiquiti Dream Machine Pro (UDM-Pro)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10Gbps WAN/LAN capabilities&lt;/li&gt;&#xA;&lt;li&gt;Advanced firewall and IPS/IDS features&lt;/li&gt;&#xA;&lt;li&gt;UniFi Network Controller integration&lt;/li&gt;&#xA;&lt;li&gt;VPN server capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Switches&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

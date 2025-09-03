@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>http://localhost:1313/tags/introduction/</link>
+    <description>Recent content in Introduction on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Professional Blog</title>
+      <link>http://localhost:1313/blog/professional/first-professional-post/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/professional/first-professional-post/</guid>
+      <description>&lt;p&gt;Welcome to my professional blog! This is where I&amp;rsquo;ll be sharing insights from my career journey, technical learnings, and thoughts on the technology industry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be writing about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Career milestones&lt;/strong&gt; and achievements&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical insights&lt;/strong&gt; from my work in cybersecurity and network operations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry observations&lt;/strong&gt; and trends&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Professional development&lt;/strong&gt; tips and lessons learned&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-background&#34;&gt;My Background&lt;/h2&gt;&#xA;&lt;p&gt;As a Network Operations Center Agent and CRM Admin at Smartaira, I work with enterprise networks across 26 states. This role has given me valuable insights into:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

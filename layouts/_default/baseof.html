@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <!-- Glassmorphism CSS -->
+    <link rel="stylesheet" href="{{ "css/glassmorphism.css" | relURL }}?v={{ now.Unix }}">
+    
+    <!-- Blog-specific CSS -->
+    <link rel="stylesheet" href="{{ "css/blog.css" | relURL }}?v={{ now.Unix }}">
+    
+    <!-- Portfolio fixes CSS -->
+    <link rel="stylesheet" href="{{ "css/portfolio-fixes.css" | relURL }}?v={{ now.Unix }}">
+    
+    <!-- Emergency blog fixes CSS (loaded last to override all other styles) -->
+    <link rel="stylesheet" href="{{ "css/blog-fix.css" | relURL }}?v={{ now.Unix }}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Hugo internal -->
+    {{ hugo.Generator }}
+</head>
+<body class="{{ if eq .Section "blog" }}blog-page{{ else if not .IsHome }}content-page-body{{ end }}">
+    {{ block "main" . }}{{ end }}
+</body>
+</html>

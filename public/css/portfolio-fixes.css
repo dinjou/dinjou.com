@@ -1,0 +1,138 @@
+/* Portfolio-specific fixes */
+
+/* Fix for blog post titles in portfolio cards */
+.portfolio-grid .blog-post-title,
+.portfolio-grid .blog-post h4.blog-post-title {
+  font-size: 0.9rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0.2rem !important;
+  background: none !important;
+  -webkit-text-fill-color: var(--foreground) !important;
+  color: var(--foreground) !important;
+  font-weight: 600 !important;
+}
+
+/* Fix for project items in portfolio */
+.project-item {
+  overflow: visible !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+/* Fix for blog post excerpts in portfolio */
+.portfolio-grid .blog-post-excerpt {
+  font-size: 0.7rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ensure portfolio container maintains fixed height and overflow hidden */
+.portfolio-container {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* Allow scroll when body indicates a content page */
+.content-page-body .portfolio-container {
+  height: auto !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+}
+
+/* Ensure portfolio card content scrolls properly */
+.portfolio-card .card-content {
+  overflow-y: auto !important;
+}
+
+/* Fix for experience items in portfolio */
+.experience-item {
+  overflow: visible !important;
+}
+
+/* Ensure blog posts in portfolio have proper sizing */
+.blog-posts .blog-post {
+  padding: 0.6rem !important;
+}
+
+/* Standardize career subtext font size */
+.experience-description,
+.project-description,
+.blog-post-excerpt {
+  font-size: 0.75rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Make Blogs card inner content scrollable */
+.blog-card .blog-posts {
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+/* Stronger override for blog card text sizes on home */
+.portfolio-card.blog-card .blog-post-title { font-size: 0.95rem !important; line-height: 1.25 !important; }
+.portfolio-card.blog-card .blog-post-excerpt { font-size: 0.8rem !important; line-height: 1.5 !important; }
+
+/* Have Projects card fill center column more effectively */
+@media (min-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .portfolio-grid > .portfolio-card:nth-child(2) {
+    grid-row: span 2;
+    min-height: 24rem; /* ensure meaningful height for scrolling */
+  }
+}
+
+/* Enlarge contact icons on home bottom row */
+.bottom-row .contact-button { width: 2.5rem !important; height: 2.5rem !important; }
+.bottom-row .contact-button svg { width: 1.1rem !important; height: 1.1rem !important; }
+
+/* Projects list view (dynamic) */
+.projects-grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.project-list-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.project-list-thumb {
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  height: 120px;
+}
+
+.project-list-title { font-size: 1.1rem; margin: 0 0 0.1rem 0; }
+.project-list-excerpt { font-size: 0.9rem; color: var(--muted-foreground); margin: 0 0 0.25rem 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.project-list-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+
+/* auto-fit handles responsive columns */
+
+/* Center projects grid within content width */
+.projects-content { 
+  width: 100% !important; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 1.5rem; 
+}
+
+@media (max-width: 768px) {
+  .projects-content { 
+    padding: 0 1rem; 
+  }
+}
+/* Add side padding on the overall page so edge elements breathe */
+.projects-page .blog-wrapper { padding-left: 1rem; padding-right: 1rem; }
+.projects-page .blog-header { margin-bottom: 1.5rem; }
+
+/* Reduce card padding to compact height */
+.project-list-card { padding: 0.85rem; }

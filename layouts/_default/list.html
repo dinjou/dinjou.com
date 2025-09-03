@@ -1,0 +1,105 @@
+{{ define "main" }}
+<div class="blog-container">
+  <div class="blog-wrapper">
+    <!-- Blog Header -->
+    <header class="blog-header">
+      <div class="blog-profile-section">
+        <a href="/">
+          <img src="{{ "images/profile.png" | relURL }}" alt="Spencer Lay" class="blog-profile-image">
+        </a>
+        <div>
+          <h1><a href="/" class="blog-title">Spencer K. Lay</a></h1>
+          <p class="blog-subtitle">{{ .Title }}</p>
+        </div>
+      </div>
+      
+      <!-- Blog Navigation -->
+      <nav class="blog-nav">
+        <a href="/" class="blog-nav-link">Home</a>
+        <a href="/about/" class="blog-nav-link">About</a>
+        <a href="/blog/personal/projects/" class="blog-nav-link">Projects</a>
+        <a href="/professional/" class="blog-nav-link">Professional</a>
+        <a href="/blog/" class="blog-nav-link">Blog</a>
+        <a href="/contact/" class="blog-nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Page Description -->
+    {{ if .Content }}
+    <div class="blog-content" style="margin-bottom: 3rem;">
+      <div class="blog-article">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ end }}
+
+    <!-- Blog Posts Grid -->
+    {{ if .Pages }}
+    <div class="blog-posts-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="blog-post-card">
+        <div class="blog-post-card-header">
+          <h3 class="blog-post-card-title">{{ .Title }}</h3>
+          <p class="blog-post-card-excerpt">
+            {{ if .Summary }}
+              {{ .Summary | plainify | truncate 160 }}
+            {{ else if .Description }}
+              {{ .Description | plainify | truncate 160 }}
+            {{ else }}
+              {{ .Content | plainify | truncate 160 }}
+            {{ end }}
+          </p>
+        </div>
+        
+        <div class="blog-post-card-meta">
+          {{ if .Date }}
+          <div class="blog-post-card-date">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.3rem;">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+          </div>
+          {{ end }}
+          
+          {{ if .Params.tags }}
+          <div class="blog-post-card-tags">
+            {{ range first 3 .Params.tags }}
+            <span class="blog-post-card-tag">{{ . }}</span>
+            {{ end }}
+            {{ if gt (len .Params.tags) 3 }}
+            <span class="blog-post-card-tag">+{{ sub (len .Params.tags) 3 }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Blog Footer Navigation -->
+    <div class="blog-footer">
+      <a href="/" class="blog-footer-button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;">
+          <path d="m15 18-6-6 6-6"/>
+        </svg>
+        Back to Portfolio
+      </a>
+      
+      {{ if ne .Section "blog" }}
+      <a href="/blog/" class="blog-footer-button">
+        All Blog Posts
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.5rem;">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
