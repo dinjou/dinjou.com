@@ -2,237 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://dinjou.com/tags/ai/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/blog/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/blog/personal/building-my-website-with-ai/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/hugo/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/learning/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/personal/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/personal/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/blog/personal/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/web-development/</loc>
+    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/cybersecurity/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dinjou.com/tags/homelab/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cybersecurity/</loc>
+    <loc>https://dinjou.com/tags/infrastructure/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dinjou.com/tags/networking/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/homelab/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/homelab/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infrastructure/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
+    <loc>https://dinjou.com/categories/technology/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/personal/</loc>
+    <loc>https://dinjou.com/tags/virtualization/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/homelab/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/technology/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/virtualization/</loc>
-    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/career/</loc>
+    <loc>https://dinjou.com/blog/professional/career/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/enterprise/</loc>
+    <loc>https://dinjou.com/tags/career/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/professional/smartaira-noc-experience/</loc>
+    <loc>https://dinjou.com/tags/crm/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/noc/</loc>
+    <loc>https://dinjou.com/tags/enterprise/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/professional/</loc>
+    <loc>https://dinjou.com/blog/professional/smartaira-noc-experience/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/professional/</loc>
+    <loc>https://dinjou.com/blog/professional/career/smartaira-noc/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/academic/</loc>
+    <loc>https://dinjou.com/tags/noc/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/professional/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/blog/professional/</loc>
+    <lastmod>2024-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/academic/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/usu-cybersecurity-club/</loc>
+    <loc>https://dinjou.com/blog/personal/usu-cybersecurity-club/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/community/</loc>
+    <loc>https://dinjou.com/tags/community/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/education/</loc>
+    <loc>https://dinjou.com/tags/education/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/leadership/</loc>
+    <loc>https://dinjou.com/tags/leadership/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/analytics/</loc>
+    <loc>https://dinjou.com/tags/analytics/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ctf/</loc>
+    <loc>https://dinjou.com/blog/personal/education/usu-information-systems/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ctf/</loc>
+    <loc>https://dinjou.com/tags/computer-science/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ctf/</loc>
+    <loc>https://dinjou.com/categories/ctf/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/introduction/</loc>
+    <loc>https://dinjou.com/tags/ctf/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/magus/</loc>
+    <loc>https://dinjou.com/blog/ctf/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/monitoring/</loc>
+    <loc>https://dinjou.com/blog/personal/education/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/network-management/</loc>
+    <loc>https://dinjou.com/tags/information-systems/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/first-personal-post/</loc>
+    <loc>https://dinjou.com/tags/introduction/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/magus/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/purpose/</loc>
+    <loc>https://dinjou.com/tags/monitoring/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ctf/sample-ctf-writeup/</loc>
+    <loc>https://dinjou.com/tags/network-management/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://dinjou.com/blog/personal/first-personal-post/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
+    <loc>https://dinjou.com/tags/philosophy/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/walkthrough/</loc>
+    <loc>https://dinjou.com/tags/purpose/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web-exploitation/</loc>
+    <loc>https://dinjou.com/blog/ctf/sample-ctf-writeup/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/professional/first-professional-post/</loc>
+    <loc>https://dinjou.com/tags/security/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/work/</loc>
+    <loc>https://dinjou.com/tags/technology/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/data-science/</loc>
+    <loc>https://dinjou.com/tags/walkthrough/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/tags/web-exploitation/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/blog/professional/first-professional-post/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/work/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dinjou.com/categories/data-science/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-science/</loc>
+    <loc>https://dinjou.com/tags/data-science/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>https://dinjou.com/tags/machine-learning/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/data-analytics/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/data-analytics/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/predictive-modeling/</loc>
+    <loc>https://dinjou.com/tags/predictive-modeling/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://dinjou.com/tags/python/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/statistics/</loc>
+    <loc>https://dinjou.com/tags/statistics/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cybersecurity/</loc>
+    <loc>https://dinjou.com/categories/cybersecurity/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/threat-report/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/threat-report/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/research/</loc>
+    <loc>https://dinjou.com/tags/research/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security-assessment/</loc>
+    <loc>https://dinjou.com/tags/security-assessment/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/threat-analysis/</loc>
+    <loc>https://dinjou.com/tags/threat-analysis/</loc>
     <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/business-analytics/</loc>
+    <loc>https://dinjou.com/tags/business-analytics/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/business-strategy/</loc>
+    <loc>https://dinjou.com/categories/business-strategy/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/data-supported-decisions/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/data-supported-decisions/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/decision-making/</loc>
+    <loc>https://dinjou.com/tags/decision-making/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/roi-analysis/</loc>
+    <loc>https://dinjou.com/tags/roi-analysis/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/strategy/</loc>
+    <loc>https://dinjou.com/tags/strategy/</loc>
     <lastmod>2023-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/business-intelligence/</loc>
+    <loc>https://dinjou.com/tags/business-intelligence/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/data-analytics/</loc>
+    <loc>https://dinjou.com/categories/data-analytics/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-visualization/</loc>
+    <loc>https://dinjou.com/tags/data-visualization/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tableau/</loc>
+    <loc>https://dinjou.com/tags/tableau/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/tableau/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/tableau/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/community/</loc>
+    <loc>https://dinjou.com/categories/community/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/community-service/</loc>
+    <loc>https://dinjou.com/tags/community-service/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digital-transformation/</loc>
+    <loc>https://dinjou.com/tags/digital-transformation/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/personal/projects/hear-christ-valley/</loc>
+    <loc>https://dinjou.com/blog/personal/projects/hear-christ-valley/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ministry/</loc>
+    <loc>https://dinjou.com/tags/ministry/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/volunteer/</loc>
+    <loc>https://dinjou.com/categories/volunteer/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/volunteer/</loc>
+    <loc>https://dinjou.com/tags/volunteer/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://dinjou.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/education/</loc>
+    <loc>https://dinjou.com/education/</loc>
   </url><url>
-    <loc>http://localhost:1313/professional/</loc>
+    <loc>https://dinjou.com/professional/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://dinjou.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/interests/</loc>
+    <loc>https://dinjou.com/interests/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://dinjou.com/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/socials/</loc>
+    <loc>https://dinjou.com/socials/</loc>
   </url>
 </urlset>

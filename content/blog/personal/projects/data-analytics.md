@@ -2,6 +2,8 @@
 title: "Machine Learning & Data Analytics Project"
 date: 2023-12-05
 description: "Comprehensive data analytics project using Python, machine learning algorithms, and statistical analysis for predictive modeling."
+featured_image: "images/ml.jpg"
+summary: "Machine learning and statistical analysis projects."
 tags: ["machine learning", "python", "data science", "predictive modeling", "statistics"]
 categories: ["academic", "data science"]
 prev_button:

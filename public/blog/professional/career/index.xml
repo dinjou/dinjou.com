@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Career on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>https://dinjou.com/blog/professional/career/</link>
+    <description>Recent content in Career on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dinjou.com/blog/professional/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Operations Center Agent at Smartaira</title>
+      <link>https://dinjou.com/blog/professional/career/smartaira-noc/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/professional/career/smartaira-noc/</guid>
+      <description>Managing enterprise networks across 26 states and administering CRM systems for optimal customer support.</description>
+    </item>
+  </channel>
+</rss>

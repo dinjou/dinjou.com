@@ -2,6 +2,8 @@
 title: "Cybersecurity Threat Analysis Report"
 date: 2023-11-20
 description: "Comprehensive threat analysis and security assessment project completed as part of cybersecurity coursework."
+featured_image: "images/businesscase.jpg"
+summary: "Cybersecurity research and threat intelligence."
 tags: ["cybersecurity", "threat analysis", "security assessment", "research"]
 categories: ["academic", "cybersecurity"]
 prev_button:

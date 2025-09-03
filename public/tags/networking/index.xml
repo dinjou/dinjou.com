@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/tags/networking/</link>
+    <link>https://dinjou.com/tags/networking/</link>
     <description>Recent content in Networking on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dinjou.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Homelab Infrastructure</title>
-      <link>http://localhost:1313/blog/personal/projects/homelab/</link>
+      <link>https://dinjou.com/blog/personal/projects/homelab/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/personal/projects/homelab/</guid>
-      <description>&lt;h1 id=&#34;personal-homelab-infrastructure&#34;&gt;Personal Homelab Infrastructure&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;My personal homelab serves as a dedicated environment for learning, experimenting, and developing skills in networking, cybersecurity, and enterprise technologies. This ongoing project allows me to gain hands-on experience with professional-grade equipment and software in a controlled environment, directly supporting my career development in information systems and cybersecurity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-architecture&#34;&gt;Infrastructure Architecture&lt;/h2&gt;&#xA;&lt;h3 id=&#34;physical-hardware&#34;&gt;Physical Hardware&lt;/h3&gt;&#xA;&lt;h4 id=&#34;core-network-equipment&#34;&gt;Core Network Equipment&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Router&lt;/strong&gt;: Ubiquiti Dream Machine Pro (UDM-Pro)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10Gbps WAN/LAN capabilities&lt;/li&gt;&#xA;&lt;li&gt;Advanced firewall and IPS/IDS features&lt;/li&gt;&#xA;&lt;li&gt;UniFi Network Controller integration&lt;/li&gt;&#xA;&lt;li&gt;VPN server capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Switches&lt;/strong&gt;:&lt;/p&gt;</description>
+      <guid>https://dinjou.com/blog/personal/projects/homelab/</guid>
+      <description>Self-built infrastructure for learning and experimentation.</description>
     </item>
     <item>
       <title>Network Operations at Scale: My Experience at Smartaira</title>
-      <link>http://localhost:1313/blog/professional/smartaira-noc-experience/</link>
+      <link>https://dinjou.com/blog/professional/smartaira-noc-experience/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/professional/smartaira-noc-experience/</guid>
+      <guid>https://dinjou.com/blog/professional/smartaira-noc-experience/</guid>
       <description>&lt;p&gt;Working as a Network Operations Center Agent at Smartaira has been an incredible journey into the world of enterprise networking at scale. Managing networks across 26 states has taught me valuable lessons about infrastructure reliability, incident response, and the critical importance of network monitoring.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-scale-of-operations&#34;&gt;The Scale of Operations&lt;/h2&gt;&#xA;&lt;p&gt;When I first started at Smartaira, I was amazed by the scope of our operations. We monitor and manage enterprise networks spanning:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Network Operations Center Agent at Smartaira</title>
+      <link>https://dinjou.com/blog/professional/career/smartaira-noc/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/professional/career/smartaira-noc/</guid>
+      <description>Managing enterprise networks across 26 states and administering CRM systems for optimal customer support.</description>
     </item>
   </channel>
 </rss>

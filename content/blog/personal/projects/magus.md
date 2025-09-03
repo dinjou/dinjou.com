@@ -2,6 +2,8 @@
 title: "MAGUS - Management and Analytics Gateway for Unified Systems"
 date: 2024-01-15
 description: "A comprehensive network management and analytics platform developed for enterprise network operations."
+featured_image: "images/stock-time-mgmt.jpg"
+summary: "Network management and analytics platform for enterprise operations."
 tags: ["network management", "analytics", "enterprise", "monitoring"]
 categories: ["work", "professional"]
 prev_button:

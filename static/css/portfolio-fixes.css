@@ -39,9 +39,53 @@
   overflow-y: auto !important;
 }
 
+/* FIX: Add top padding to the correct container on content pages */
+.content-page-body .blog-container {
+  padding-top: 2.5rem !important;
+}
+
+/* FIX: Hide the blog-content top divider line on non-blog pages */
+.content-page-body .blog-content::before {
+  display: none !important;
+}
+
+/* Ensure consistent top spacing on content pages (about/professional/contact) */
+.portfolio-container.content-page,
+.content-page-body .portfolio-container {
+  padding-top: 2.25rem !important;
+}
+
+/* Add specific spacing for content page headers */
+.content-page .portfolio-header,
+.content-page-body .portfolio-header {
+  margin-top: 2rem !important; /* Add top margin for breathing room */
+  margin-bottom: 2rem !important;
+}
+
 /* Ensure portfolio card content scrolls properly */
 .portfolio-card .card-content {
   overflow-y: auto !important;
+}
+
+/* Slightly reduce top spacing on smaller screens to balance layout */
+@media (max-width: 768px) {
+  .portfolio-container.content-page,
+  .content-page-body .portfolio-container {
+    padding-top: 1.25rem !important;
+  }
+}
+
+/* Use padding on the header as well to prevent any margin collapse edge-cases */
+.content-page .portfolio-header,
+.content-page-body .portfolio-header {
+  padding-top: 1rem !important;
+}
+
+@media (min-width: 1024px) {
+  .content-page .portfolio-header,
+  .content-page-body .portfolio-header {
+    padding-top: 1.5rem !important;
+  }
 }
 
 /* Fix for experience items in portfolio */

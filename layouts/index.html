@@ -5,7 +5,7 @@
     <header class="portfolio-header">
       <div class="profile-section">
         <div class="profile-image-container">
-          <img src="{{ "images/profile.png" | relURL }}" alt="Spencer Lay" class="profile-image glass-card">
+          <img src="{{ "images/profile.png" | relURL }}?v={{ now.Unix }}" alt="Spencer Lay" class="profile-image glass-card">
           <div class="profile-gradient"></div>
         </div>
         <div class="profile-info">
@@ -22,49 +22,56 @@
         <a href="/professional/" class="card-title-link">
           <h2 class="card-title">Career</h2>
         </a>
-        <div class="card-content">
-          <!-- Professional Blog Posts -->
-          {{ $professionalPosts := where .Site.RegularPages "Section" "blog" }}
-          {{ $professionalPosts = where $professionalPosts ".Params.categories" "intersect" (slice "professional") }}
-          {{ if gt (len $professionalPosts) 0 }}
-            {{ range first 2 $professionalPosts }}
-            <div class="experience-item">
-              <div class="experience-icon glass-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
-                  <path d="M10 7H4a2 2 0 0 0-2 2v9h20V9a2 2 0 0 0-2-2h-6"/>
-                  <path d="M10 7V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2"/>
-                </svg>
+        <div class="card-content" style="display: flex; flex-direction: column; height: 100%;">
+          <div style="flex: 1;">
+          <!-- Career Posts -->
+          {{ $careerPosts := where .Site.RegularPages ".Params.section" "career" }}
+          {{ if gt (len $careerPosts) 0 }}
+            {{ range first 3 $careerPosts }}
+            <a href="{{ .RelPermalink }}" class="experience-item glass-card glass-hover" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 0.75rem; margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 0.75rem; color: inherit; text-decoration: none; transition: all 0.3s ease;">
+              <div class="experience-icon glass-card" style="flex-shrink: 0;">
+                {{ if .Params.company_logo }}
+                  <img src="{{ .Params.company_logo | relURL }}" alt="{{ .Params.company }}" style="width: 20px; height: 20px; object-fit: contain;" />
+                {{ else }}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                    <path d="M10 7H4a2 2 0 0 0-2 2v9h20V9a2 2 0 0 0-2-2h-6"/>
+                    <path d="M10 7V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2"/>
+                  </svg>
+                {{ end }}
               </div>
-              <div class="experience-details">
-                <h3 class="experience-title">
-                  <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+              <div class="experience-details" style="flex: 1; min-width: 0;">
+                <h3 class="experience-title" style="margin: 0 0 0.25rem 0;">
+                  {{ .Params.position | default .Title }}
+                  {{ if .Params.company }} at {{ .Params.company }}{{ end }}
                 </h3>
-                <p class="experience-description">
-                  {{ .Summary | plainify | truncate 120 }}
+                <p class="experience-description" style="margin: 0;">
+                  {{ if .Params.duration }}<small style="color: var(--muted-foreground);">{{ .Params.duration }}</small><br/>{{ end }}
+                  {{ .Params.summary | default (.Summary | plainify | truncate 100) }}
                 </p>
               </div>
-            </div>
+            </a>
             {{ end }}
           {{ else }}
           <!-- Fallback static content if no professional posts exist -->
-          <div class="experience-item">
-            <div class="experience-icon glass-card">
+          <div class="experience-item glass-card glass-hover" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 0.75rem; margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 0.75rem; transition: all 0.3s ease;">
+            <div class="experience-icon glass-card" style="flex-shrink: 0;">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
                 <path d="M10 7H4a2 2 0 0 0-2 2v9h20V9a2 2 0 0 0-2-2h-6"/>
                 <path d="M10 7V5a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2"/>
               </svg>
             </div>
-            <div class="experience-details">
-              <h3 class="experience-title">Network Operations Center Agent</h3>
-              <p class="experience-description">
+            <div class="experience-details" style="flex: 1; min-width: 0;">
+              <h3 class="experience-title" style="margin: 0 0 0.25rem 0;">Network Operations Center Agent</h3>
+              <p class="experience-description" style="margin: 0;">
                 Monitoring and managing enterprise networks across 26 states. Specializing in network troubleshooting, CRM administration, and incident response.
               </p>
             </div>
           </div>
           {{ end }}
+          </div>
           
-          <!-- Static career highlights -->
-          <div class="experience-item">
+          <!-- Static career highlights - pinned to bottom -->
+          <div class="experience-item" style="margin-top: auto; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
             <div class="experience-icon glass-card">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
                 <path d="M10 7H4a2 2 0 0 0-2 2v9h20V9a2 2 0 0 0-2-2h-6"/>
@@ -89,53 +96,64 @@
           <h2 class="card-title">Projects</h2>
         </a>
         <div class="card-content">
-          <div class="project-item">
-            <div class="project-icon glass-card">
-              <img src="{{ "images/stock-time-mgmt.jpg" | relURL }}" alt="MAGUS" />
-            </div>
+          <!-- Dynamic Projects from blog/personal/projects -->
+          {{ $projectPosts := slice }}
+          {{ range .Site.RegularPages }}
+            {{ if and (eq .Section "blog") (in .File.Dir "projects") }}
+              {{ $projectPosts = $projectPosts | append . }}
+            {{ end }}
+          {{ end }}
+          {{ if gt (len $projectPosts) 0 }}
+            {{ range first 4 $projectPosts }}
+            <a href="{{ .RelPermalink }}" class="project-item glass-card" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1rem; margin-bottom: 0.75rem; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ (.Params.featured_image | default "images/placeholder.jpg") | relURL }}'); background-size: cover; background-position: center; display: block; color: inherit; text-decoration: none;">
+              <div class="project-details">
+                <h3 class="project-title" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">
+                  {{ .Title }}
+                </h3>
+                <p class="project-description" style="color: rgba(255,255,255,0.9); text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
+                  {{ .Params.summary | default (.Summary | plainify | truncate 100) }}
+                </p>
+              </div>
+            </a>
+            {{ end }}
+          {{ else }}
+          <!-- Fallback static projects -->
+          <a href="/blog/personal/projects/magus/" class="project-item glass-card" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1rem; margin-bottom: 0.75rem; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ "images/stock-time-mgmt.jpg" | relURL }}'); background-size: cover; background-position: center; display: block; color: inherit; text-decoration: none;">
             <div class="project-details">
-              <h3 class="project-title"><a href="/blog/personal/projects/magus/">MAGUS Platform</a></h3>
-              <p class="project-description">
+              <h3 class="project-title" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">MAGUS Platform</h3>
+              <p class="project-description" style="color: rgba(255,255,255,0.9); text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
                 Network management and analytics platform for enterprise operations.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div class="project-item">
-            <div class="project-icon glass-card">
-              <img src="{{ "images/homelab.jpg" | relURL }}" alt="Homelab" />
-            </div>
+          <a href="/blog/personal/projects/homelab/" class="project-item glass-card" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1rem; margin-bottom: 0.75rem; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ "images/homelab.jpg" | relURL }}'); background-size: cover; background-position: center; display: block; color: inherit; text-decoration: none;">
             <div class="project-details">
-              <h3 class="project-title"><a href="/blog/personal/projects/homelab/">Personal Homelab</a></h3>
-              <p class="project-description">
+              <h3 class="project-title" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">Personal Homelab</h3>
+              <p class="project-description" style="color: rgba(255,255,255,0.9); text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
                 Self-built infrastructure for learning and experimentation.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div class="project-item">
-            <div class="project-icon glass-card">
-              <img src="{{ "images/ml.jpg" | relURL }}" alt="Data Analytics" />
-            </div>
+          <a href="/blog/personal/projects/data-analytics/" class="project-item glass-card" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1rem; margin-bottom: 0.75rem; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ "images/ml.jpg" | relURL }}'); background-size: cover; background-position: center; display: block; color: inherit; text-decoration: none;">
             <div class="project-details">
-              <h3 class="project-title"><a href="/blog/personal/projects/data-analytics/">Data Analytics</a></h3>
-              <p class="project-description">
+              <h3 class="project-title" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">Data Analytics</h3>
+              <p class="project-description" style="color: rgba(255,255,255,0.9); text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
                 Machine learning and statistical analysis projects.
               </p>
             </div>
-          </div>
+          </a>
 
-          <div class="project-item">
-            <div class="project-icon glass-card">
-              <img src="{{ "images/businesscase.jpg" | relURL }}" alt="Threat Report" />
-            </div>
+          <a href="/blog/personal/projects/threat-report/" class="project-item glass-card" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 1rem; margin-bottom: 0.75rem; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('{{ "images/businesscase.jpg" | relURL }}'); background-size: cover; background-position: center; display: block; color: inherit; text-decoration: none;">
             <div class="project-details">
-              <h3 class="project-title"><a href="/blog/personal/projects/threat-report/">Threat Analysis</a></h3>
-              <p class="project-description">
+              <h3 class="project-title" style="text-shadow: 0 1px 3px rgba(0,0,0,0.8);">Threat Analysis</h3>
+              <p class="project-description" style="color: rgba(255,255,255,0.9); text-shadow: 0 1px 2px rgba(0,0,0,0.6);">
                 Cybersecurity research and threat intelligence.
               </p>
             </div>
-          </div>
+          </a>
+          {{ end }}
         </div>
       </div>
 
@@ -157,7 +175,10 @@
           <div class="blog-posts">
             {{ range first 1 (where .Site.RegularPages "Section" "blog") }}
             <a href="{{ .RelPermalink }}" class="blog-post glass-card featured">
-              <h4 class="blog-post-title">{{ .Title }}</h4>
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+                <h4 class="blog-post-title" style="margin: 0; flex: 1;">{{ .Title }}</h4>
+                <small style="color: var(--muted-foreground); white-space: nowrap; margin-left: 1rem;">{{ .Date.Format "Jan 2, 2006" }}</small>
+              </div>
               <p class="blog-post-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
             </a>
             {{ end }}
@@ -170,7 +191,10 @@
           <div class="blog-posts">
             {{ range first 2 (after 1 (where .Site.RegularPages "Section" "blog")) }}
             <a href="{{ .RelPermalink }}" class="blog-post glass-card">
-              <h4 class="blog-post-title">{{ .Title }}</h4>
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+                <h4 class="blog-post-title" style="margin: 0; flex: 1;">{{ .Title }}</h4>
+                <small style="color: var(--muted-foreground); white-space: nowrap; margin-left: 1rem;">{{ .Date.Format "Jan 2, 2006" }}</small>
+              </div>
               <p class="blog-post-excerpt">{{ .Summary | plainify | truncate 100 }}</p>
             </a>
             {{ end }}
@@ -186,35 +210,58 @@
         <a href="/education/" class="card-title-link">
           <h2 class="card-title">Education</h2>
         </a>
-        <div class="card-content">
-          <!-- Academic/Educational Blog Posts -->
-          {{ $educationPosts := where .Site.RegularPages "Section" "blog" }}
-          {{ $educationPosts = where $educationPosts ".Params.categories" "intersect" (slice "academic") }}
-          {{ $educationTagPosts := where .Site.RegularPages ".Params.tags" "intersect" (slice "education") }}
-          {{ $allEducationPosts := union $educationPosts $educationTagPosts }}
-          {{ if gt (len $allEducationPosts) 0 }}
-            {{ range first 1 $allEducationPosts }}
-            <div class="experience-item">
-              <div class="experience-icon glass-card">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
-                  <path d="M22 10l-10-5L2 10l10 5 10-5z"/>
-                  <path d="M6 12v5c0 1.1 3.6 2 8 2s8-.9 8-2v-5"/>
-                </svg>
+        <div class="card-content" style="display: flex; flex-direction: column; height: 100%;">
+          <div style="flex: 1;">
+          <!-- Education Posts -->
+          {{ $educationPosts := where .Site.RegularPages ".Params.section" "education" }}
+          {{ if gt (len $educationPosts) 0 }}
+            {{ range first 2 $educationPosts }}
+            <a href="{{ .RelPermalink }}" class="experience-item glass-card glass-hover" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 0.75rem; margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 0.75rem; color: inherit; text-decoration: none; transition: all 0.3s ease;">
+              <div class="experience-icon glass-card" style="flex-shrink: 0;">
+                {{ if .Params.school_logo }}
+                  <img src="{{ .Params.school_logo | relURL }}" alt="{{ .Params.school }}" style="width: 20px; height: 20px; object-fit: contain;" />
+                {{ else }}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                    <path d="M22 10l-10-5L2 10l10 5 10-5z"/>
+                    <path d="M6 12v5c0 1.1 3.6 2 8 2s8-.9 8-2v-5"/>
+                  </svg>
+                {{ end }}
               </div>
-              <div class="experience-details">
-                <h3 class="experience-title">
-                  <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+              <div class="experience-details" style="flex: 1; min-width: 0;">
+                <h3 class="experience-title" style="margin: 0 0 0.25rem 0;">
+                  {{ .Params.degree | default .Title }}
                 </h3>
-                <p class="experience-description">
-                  {{ .Summary | truncate 120 }}
+                <p class="experience-description" style="margin: 0;">
+                  {{ if .Params.school }}<strong>{{ .Params.school }}</strong>{{ if .Params.minor }} - {{ .Params.minor }} minor{{ end }}<br/>{{ end }}
+                  {{ if .Params.duration }}<small style="color: var(--muted-foreground);">{{ .Params.duration }}</small><br/>{{ end }}
+                  {{ .Params.summary | default (.Summary | plainify | truncate 100) }}
                 </p>
               </div>
-            </div>
+            </a>
             {{ end }}
+          {{ else }}
+          <!-- Fallback static content if no education posts exist -->
+          <div class="experience-item glass-card glass-hover" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 0.75rem; margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 0.75rem; transition: all 0.3s ease;">
+            <div class="experience-icon glass-card" style="flex-shrink: 0;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                <path d="M22 10l-10-5L2 10l10 5 10-5z"/>
+                <path d="M6 12v5c0 1.1 3.6 2 8 2s8-.9 8-2v-5"/>
+              </svg>
+            </div>
+            <div class="experience-details" style="flex: 1; min-width: 0;">
+              <h3 class="experience-title" style="margin: 0 0 0.25rem 0;">B.S. Information Systems</h3>
+              <p class="experience-description" style="margin: 0;">
+                <strong>Utah State University</strong> - Computer Science minor<br/>
+                <small style="color: var(--muted-foreground);">2018 - 2024</small><br/>
+                Focus on cybersecurity, network operations, and data analytics with comprehensive project experience.
+              </p>
+            </div>
+          </div>
           {{ end }}
+          </div>
           
-          <!-- Static education info -->
-          <div class="experience-item">
+          <!-- Static academic overview - pinned to bottom -->
+          <div class="experience-item" style="margin-top: auto; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
             <div class="experience-icon glass-card">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
                 <path d="M22 10l-10-5L2 10l10 5 10-5z"/>
@@ -223,10 +270,10 @@
             </div>
             <div class="experience-details">
               <h3 class="experience-title">
-                <a href="/education/" style="color: inherit; text-decoration: none;">B.S. Information Systems</a>
+                <a href="/education/" style="color: inherit; text-decoration: none;">View Full Academic History</a>
               </h3>
               <p class="experience-description">
-                Utah State University - Computer Science minor. Focus on cybersecurity, network operations, and data analytics with comprehensive project experience.
+                Comprehensive academic background, coursework, leadership activities, and educational achievements.
               </p>
             </div>
           </div>

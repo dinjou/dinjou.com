@@ -2,6 +2,8 @@
 title: "Personal Homelab Infrastructure"
 date: 2024-02-01
 description: "Self-built home laboratory for learning networking, virtualization, and cybersecurity technologies through hands-on experimentation."
+featured_image: "images/homelab.jpg"
+summary: "Self-built infrastructure for learning and experimentation."
 tags: ["homelab", "networking", "virtualization", "cybersecurity", "infrastructure"]
 categories: ["personal", "technology"]
 prev_button:

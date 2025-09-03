@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Predictive Modeling on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/tags/predictive-modeling/</link>
+    <link>https://dinjou.com/tags/predictive-modeling/</link>
     <description>Recent content in Predictive Modeling on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/predictive-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dinjou.com/tags/predictive-modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Machine Learning &amp; Data Analytics Project</title>
-      <link>http://localhost:1313/blog/personal/projects/data-analytics/</link>
+      <link>https://dinjou.com/blog/personal/projects/data-analytics/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/personal/projects/data-analytics/</guid>
-      <description>&lt;h1 id=&#34;machine-learning--data-analytics-project&#34;&gt;Machine Learning &amp;amp; Data Analytics Project&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This comprehensive data analytics project involved applying machine learning algorithms and statistical analysis techniques to solve real-world business problems. Completed as part of my Bachelor&amp;rsquo;s degree coursework, the project demonstrated proficiency in Python programming, data science methodologies, and predictive modeling techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;&#xA;&lt;h3 id=&#34;primary-goals&#34;&gt;Primary Goals&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Predictive Modeling&lt;/strong&gt;: Develop accurate models to forecast business outcomes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pattern Recognition&lt;/strong&gt;: Identify hidden patterns and relationships in complex datasets&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Statistical Analysis&lt;/strong&gt;: Apply advanced statistical methods for data interpretation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Model Validation&lt;/strong&gt;: Implement robust testing and validation frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;business-problem&#34;&gt;Business Problem&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Customer Churn Prediction&lt;/strong&gt;: Develop a machine learning model to predict customer churn for a telecommunications company, enabling proactive retention strategies and reducing revenue loss.&lt;/p&gt;</description>
+      <guid>https://dinjou.com/blog/personal/projects/data-analytics/</guid>
+      <description>Machine learning and statistical analysis projects.</description>
     </item>
   </channel>
 </rss>

@@ -382,6 +382,7 @@
 .blog-page .blog-posts-grid {
   display: grid;
   gap: 2rem;
+  margin-top: 3rem; /* Ensure spacing even when no static content */
   margin-bottom: 3rem;
   animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 65ch;
@@ -483,6 +484,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
+  margin-bottom: 2rem; /* Add bottom margin for footer breathing room */
   gap: 1rem;
   flex-wrap: wrap;
   animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);

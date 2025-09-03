@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/categories/personal/</link>
+    <link>https://dinjou.com/categories/personal/</link>
     <description>Recent content in Personal on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dinjou.com/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building My Website with AI: A Non-Web Developer&#39;s Journey</title>
+      <link>https://dinjou.com/blog/personal/building-my-website-with-ai/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://dinjou.com/blog/personal/building-my-website-with-ai/</guid>
+      <description>&lt;h2 id=&#34;-a-website-for-a-non-web-developer&#34;&gt;🌐 A Website for a Non-Web Developer&lt;/h2&gt;&#xA;&lt;p&gt;One extraordinarily valid question to ask me here is this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Why didn&amp;rsquo;t you use like, Squarespace or something?&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Well, the answer is simple: I enjoy building my own things. I could use a pre-baked solution, but I enjoy knowing that I can get my hands under the hood, rip out the guts and start anew if I really want to.&lt;/p&gt;&#xA;&lt;p&gt;See, I started off building dinky little games in Game Maker 7 when I was a kid, and though I never really went deep on any particular discipline of software development, I have worked in many languages over the years. In college, I did some web-dev 101, and while I definitely didn&amp;rsquo;t gravitate toward it, I can appreciate that it&amp;rsquo;s a useful skill. I figured, &amp;ldquo;Hey, I know how to run my own webserver, I know enough web-dev to be dangerous, and with AI to augment that I betcha I can make something nice, something that I like without paying for a service I don&amp;rsquo;t need.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Personal Homelab Infrastructure</title>
-      <link>http://localhost:1313/blog/personal/projects/homelab/</link>
+      <link>https://dinjou.com/blog/personal/projects/homelab/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/personal/projects/homelab/</guid>
-      <description>&lt;h1 id=&#34;personal-homelab-infrastructure&#34;&gt;Personal Homelab Infrastructure&lt;/h1&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;My personal homelab serves as a dedicated environment for learning, experimenting, and developing skills in networking, cybersecurity, and enterprise technologies. This ongoing project allows me to gain hands-on experience with professional-grade equipment and software in a controlled environment, directly supporting my career development in information systems and cybersecurity.&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-architecture&#34;&gt;Infrastructure Architecture&lt;/h2&gt;&#xA;&lt;h3 id=&#34;physical-hardware&#34;&gt;Physical Hardware&lt;/h3&gt;&#xA;&lt;h4 id=&#34;core-network-equipment&#34;&gt;Core Network Equipment&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Router&lt;/strong&gt;: Ubiquiti Dream Machine Pro (UDM-Pro)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10Gbps WAN/LAN capabilities&lt;/li&gt;&#xA;&lt;li&gt;Advanced firewall and IPS/IDS features&lt;/li&gt;&#xA;&lt;li&gt;UniFi Network Controller integration&lt;/li&gt;&#xA;&lt;li&gt;VPN server capabilities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Switches&lt;/strong&gt;:&lt;/p&gt;</description>
+      <guid>https://dinjou.com/blog/personal/projects/homelab/</guid>
+      <description>Self-built infrastructure for learning and experimentation.</description>
     </item>
     <item>
       <title>Building Community in Cybersecurity: My Role at USU&#39;s Cybersecurity Club</title>
-      <link>http://localhost:1313/blog/personal/usu-cybersecurity-club/</link>
+      <link>https://dinjou.com/blog/personal/usu-cybersecurity-club/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/personal/usu-cybersecurity-club/</guid>
+      <guid>https://dinjou.com/blog/personal/usu-cybersecurity-club/</guid>
       <description>&lt;p&gt;Being the Networking Representative for Utah State University&amp;rsquo;s Student Organization for Cybersecurity has been one of the most rewarding experiences of my college career. It&amp;rsquo;s given me the opportunity to combine my passion for cybersecurity with community building and education.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-mission&#34;&gt;The Mission&lt;/h2&gt;&#xA;&lt;p&gt;Our cybersecurity club exists to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Provide hands-on cybersecurity education beyond the classroom&lt;/li&gt;&#xA;&lt;li&gt;Create a supportive community for students interested in security&lt;/li&gt;&#xA;&lt;li&gt;Bridge the gap between academic theory and real-world practice&lt;/li&gt;&#xA;&lt;li&gt;Prepare students for careers in cybersecurity&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-role-as-networking-representative&#34;&gt;My Role as Networking Representative&lt;/h2&gt;&#xA;&lt;h3 id=&#34;skills-nights-facilitation&#34;&gt;Skills Nights Facilitation&lt;/h3&gt;&#xA;&lt;p&gt;One of my primary responsibilities is organizing and teaching at our &amp;ldquo;Skills Nights&amp;rdquo; events. These sessions focus on:&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Finding Purpose in Technology</title>
-      <link>http://localhost:1313/blog/personal/first-personal-post/</link>
+      <link>https://dinjou.com/blog/personal/first-personal-post/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/personal/first-personal-post/</guid>
+      <guid>https://dinjou.com/blog/personal/first-personal-post/</guid>
       <description>&lt;p&gt;Technology has always fascinated me, but recently I&amp;rsquo;ve been thinking about the deeper purpose behind what we build and how we use it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beyond-the-code&#34;&gt;Beyond the Code&lt;/h2&gt;&#xA;&lt;p&gt;When I first started learning about cybersecurity and network operations, I was drawn to the technical challenges. But as I&amp;rsquo;ve grown in my career, I&amp;rsquo;ve realized that the most rewarding aspects aren&amp;rsquo;t just about solving complex problems—they&amp;rsquo;re about protecting people and organizations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-human-element&#34;&gt;The Human Element&lt;/h2&gt;&#xA;&lt;p&gt;In my role monitoring networks across 26 states, I&amp;rsquo;m not just managing infrastructure. I&amp;rsquo;m helping ensure that:&lt;/p&gt;</description>
     </item>
   </channel>
