@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noc on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>http://localhost:1313/tags/noc/</link>
+    <description>Recent content in Noc on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/noc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Operations at Scale: My Experience at Smartaira</title>
+      <link>http://localhost:1313/blog/professional/smartaira-noc-experience/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/professional/smartaira-noc-experience/</guid>
+      <description>&lt;p&gt;Working as a Network Operations Center Agent at Smartaira has been an incredible journey into the world of enterprise networking at scale. Managing networks across 26 states has taught me valuable lessons about infrastructure reliability, incident response, and the critical importance of network monitoring.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-scale-of-operations&#34;&gt;The Scale of Operations&lt;/h2&gt;&#xA;&lt;p&gt;When I first started at Smartaira, I was amazed by the scope of our operations. We monitor and manage enterprise networks spanning:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Network Operations Center Agent at Smartaira</title>
+      <link>http://localhost:1313/blog/professional/career/smartaira-noc/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/professional/career/smartaira-noc/</guid>
+      <description>Managing enterprise networks across 26 states and administering CRM systems for optimal customer support.</description>
+    </item>
+  </channel>
+</rss>

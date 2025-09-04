@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Spencer - Personal Blog &amp; Portfolio</title>
+    <link>http://localhost:1313/categories/data-science/</link>
+    <description>Recent content in Data Science on Spencer - Personal Blog &amp; Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning &amp; Data Analytics Project</title>
+      <link>http://localhost:1313/blog/personal/projects/data-analytics/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/personal/projects/data-analytics/</guid>
+      <description>Machine learning and statistical analysis projects.</description>
+    </item>
+  </channel>
+</rss>

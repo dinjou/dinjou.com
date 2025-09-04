@@ -1,0 +1,36 @@
+<div class="header-content">
+    <a href="/" class="profile-link">
+        <img src="{{ "images/profile.png" | relURL }}" alt="Spencer Lay" class="circular-photo">
+    </a>
+    
+    <div class="header-center">
+        <h1 class="page-title">
+            {{ if .IsHome }}
+                Spencer K. Lay
+            {{ else }}
+                {{ .Title }}
+            {{ end }}
+        </h1>
+        
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+            <a href="/about/" {{ if eq .Section "about" }}class="active"{{ end }}>About</a>
+            <a href="/professional/" {{ if eq .Section "professional" }}class="active"{{ end }}>Professional</a>
+            <a href="/blog/personal/projects/" {{ if eq .Section "projects" }}class="active"{{ end }}>Projects</a>
+            <a href="/education/" {{ if eq .Section "education" }}class="active"{{ end }}>Education</a>
+            <a href="/interests/" {{ if eq .Section "interests" }}class="active"{{ end }}>Interests</a>
+            <a href="/socials/" {{ if eq .Section "socials" }}class="active"{{ end }}>Socials</a>
+            <a href="/contact/" {{ if eq .Section "contact" }}class="active"{{ end }}>Contact</a>
+        </nav>
+    </div>
+    
+    <div class="header-icons">
+        <a href="/contact/" class="messages-icon">
+            <img src="{{ "images/message.png" | relURL }}" alt="Contact" class="icon">
+        </a>
+        <button class="theme-toggle" onclick="toggleTheme()">
+            <img src="{{ "images/theme-light-dark.png" | relURL }}" alt="Toggle Theme" class="icon">
+        </button>
+    </div>
+</div>

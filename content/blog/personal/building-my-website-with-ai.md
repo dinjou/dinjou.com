@@ -1,8 +1,11 @@
-# dinjou.com
-
-The source code for my website, built on Hugo with some flourish.
-
-A great opportunity for me to play with Cursor and get familiar with what works, and what doesn't for an AI-first development workflow. Worse comes to worse, it can be its own portfolio piece and can be torn down and rebuilt by hand.
+---
+title: "Building My Website with AI: A Non-Web Developer's Journey"
+date: 2024-12-19
+description: "Why I chose to build my own website instead of using a service, and how AI helped me get there"
+tags: ["web-development", "ai", "personal", "hugo", "learning"]
+categories: ["personal"]
+draft: false
+---
 
 ## 🌐 A Website for a Non-Web Developer
 
@@ -35,16 +38,32 @@ Oh trust me: I have my concerns. Whether it's security, code-spaghettification, 
 - **I want to learn how to use AI as a tool effectively.**
     - This is a learning-experience. AI is improving at an unprecedented rate, love it or hate it, and I'd rather get ahead of the curve.
 - **I don't want to pay for a website builder.**
-    - Theres a billion frameworks and services out there. Wysiwyg is great, but I enjoy tinkering too much. This is simply more enjoyable.
+    - There's a billion frameworks and services out there. WYSIWYG is great, but I enjoy tinkering too much. This is simply more enjoyable.
 
-## Why `dijnou.com`?
+## The Story Behind "dinjou.com"
 
 Storytime.
 
-I ran into The age-old problem of usernames. Find one you like and it's probably already taken, especially if it's short.
+I ran into the age-old problem of usernames. Find one you like and it's probably already taken, especially if it's short.
 
 I've adopted five or six usernames over the years, but "dinjou" is probably the closest to my heart. Back in my college days, a group of friends and I were playing Minecraft together, running off of an old university surplus computer as a server. My in-game handle at the time was "TheLegendOfDin" (a nod to the goddess in the Legend of Zelda). My friends just called me "Din," and I came to enjoy the nickname. Eventually, it became my handle on Discord, as well. By the time I became the admin of the USU Cybersecurity Club Discord, it was just something that people called me, both online and IRL.
 
-At that point, I wanted to trim my username down to just "din" but c'mon: That username is taken *everywhere.* I **needed** a way to make it mine. So, what did I do? I leaned into my limited understanding of Japanese. I compared and contrasted various readings of several kanji centered around the sound "din" and eventually landed on some with a rough interpretation and sound that I liked: 仁錠 (din-jou). I chose these characters because I enjoyed combining their individual ideas.仁 can be "benevolence" or "humanity," and 錠 can be "lock" or "bolt" /strength or stability. I want others to know that they can count on me, and that I strive to be a good person. I believe charity to be a virtue and a strength, not a burden. 
+At that point, I wanted to trim my username down to just "din" but c'mon: That username is taken *everywhere.* I **needed** a way to make it mine. So, what did I do? I leaned into my limited understanding of Japanese. I compared and contrasted various readings of several kanji centered around the sound "din" and eventually landed on some with a rough interpretation and sound that I liked: 仁錠 (din-jou). I chose these characters because I enjoyed combining their individual ideas. 仁 can be "benevolence" or "humanity," and 錠 can be "lock" or "bolt" - strength or stability. I want others to know that they can count on me, and that I strive to be a good person. I believe charity to be a virtue and a strength, not a burden. 
 
-To be strong because of a desire to do good virtue is the kind of person I want to be. It was a long, roundabout way of coming to a username, but it was fun. That's why I also wanted to use it as my domain: It's a principle-driven approach to representing who I want to be. So welcome. Stop reading this README and visit the website, see if you like what you see.
+To be strong because of a desire to do good virtue is the kind of person I want to be. It was a long, roundabout way of coming to a username, but it was fun. That's why I also wanted to use it as my domain: It's a principle-driven approach to representing who I want to be.
+
+## What I've Learned So Far
+
+Building this site has been a great opportunity for me to play with Cursor and get familiar with what works, and what doesn't for an AI-first development workflow. Worse comes to worst, it can be its own portfolio piece and can be torn down and rebuilt by hand if needed.
+
+The migration from my original static HTML site to Hugo has been educational, and working with AI to help with the technical aspects has let me focus more on the content and design decisions rather than getting bogged down in implementation details.
+
+## Looking Forward
+
+This website is very much a work in progress, but that's part of what makes it fun. It's a living representation of my growth as both a technologist and a person. Every improvement, every new blog post, every project I add - it all contributes to a more complete picture of who I am and what I can do.
+
+So welcome to my little corner of the internet. I hope you find something here that resonates with you, whether it's a project that inspires you, a blog post that helps you learn something new, or just a glimpse into how one person approaches the intersection of technology and creativity.
+
+---
+
+*This post was originally written as my README.md file, but I liked it so much I decided to turn it into a proper blog post. Meta? Maybe. But it felt right.*
