@@ -1,0 +1,126 @@
+# Hugo Website Performance & Development Rules
+
+## Project Overview
+This is a Hugo-powered personal portfolio/blog website with glassmorphism design. Performance and maintainability are primary concerns.
+
+## CSS Performance Constraints
+
+### ✅ REQUIRED PRACTICES
+
+1. **Hugo Pipes Usage**
+   - ALL CSS must use Hugo Pipes for processing (minify, fingerprint)
+   - Files must be in `assets/css/` directory, NOT `static/css/`
+   - Use: `{{ $css := resources.Get "css/main.css" | minify | fingerprint }}`
+
+2. **Consolidated CSS Architecture**
+   - Maintain single `assets/css/main.css` file
+   - NO multiple CSS files requiring separate HTTP requests
+   - Well-organized sections with clear comments
+
+3. **Avoid Inline Styles**
+   - Create semantic CSS classes instead of inline `style` attributes
+   - Exception: Dynamic background images with Hugo template variables
+   - Example: `class="experience-item-link"` NOT `style="display: flex;"`
+
+4. **Performance Targets**
+   - Single HTTP request for CSS
+   - Minified and fingerprinted assets
+   - Proper browser caching with content-based URLs
+
+### ❌ FORBIDDEN PRACTICES
+
+- Multiple CSS files in `<head>` (consolidate instead)
+- CSS files in `static/css/` when using Hugo Pipes
+- Cache-busting with timestamps (`?v={{ now.Unix }}`)
+- Excessive `!important` declarations (except for legitimate override cases)
+- Loading CSS files without minification/fingerprinting
+
+## CSS Architecture Rules
+
+### File Organization
+```
+assets/css/main.css structure:
+1. CSS Variables & Base Styles
+2. Glassmorphism Components  
+3. Portfolio Layout (Homepage)
+4. Component-specific sections (Career, Projects, Blog, etc.)
+5. Responsive Design
+6. Utility Classes
+```
+
+### Class Naming Conventions
+- Use semantic names: `.experience-item-link`, `.project-item-featured`
+- Avoid generic names: `.container`, `.wrapper`
+- Component-specific prefixes when needed
+
+### Specificity Management
+- Avoid `!important` unless fixing legitimate inheritance conflicts
+- Use specific class names over complex selectors
+- Document reasons when `!important` is necessary
+
+## Hugo-Specific Guidelines
+
+### Template Best Practices
+- Extract repetitive inline styles to CSS classes
+- Use Hugo's asset processing capabilities
+- Maintain template readability
+
+### Performance Optimization
+- Leverage Hugo's built-in minification
+- Use fingerprinting for cache optimization
+- Enable SRI (Subresource Integrity) for security
+
+## Content Width Guidelines
+- Blog content: `max-width: 900px` for good screen utilization
+- Maintain readability while using available screen space
+- Responsive adjustments for mobile devices
+
+## Testing Requirements
+- Verify visual consistency across all page types
+- Test homepage, blog posts, content pages, and list pages
+- Ensure no broken layouts after CSS changes
+
+## Glassmorphism Design System
+- Maintain consistent glass-card effects
+- Use CSS variables for theme consistency
+- Preserve hover animations and transitions
+- Keep glassmorphism aesthetic intact
+
+## Emergency Fixes
+- When urgent fixes are needed, document them properly
+- Plan refactoring into main CSS architecture
+- Avoid accumulating "emergency" or "fix" files
+
+## Performance Monitoring
+- Monitor for CSS conflicts and specificity wars
+- Ensure fast rebuild times during development
+- Verify proper caching in production builds
+
+## Decision Making Priority
+1. Performance first
+2. Maintainability second  
+3. Visual consistency third
+4. Code elegance fourth
+
+When making changes, always consider: "Does this maintain our single CSS file, use Hugo Pipes properly, and avoid performance regressions?"
+
+## Common Patterns for This Project
+
+### Adding New Styles
+1. Add to `assets/css/main.css` in appropriate section
+2. Use semantic class names
+3. Extract from inline styles when possible
+4. Test across all page types
+
+### Background Images
+- Dynamic images: Keep inline styles with Hugo variables
+- Static images: Move to CSS classes when possible
+
+### Responsive Design
+- Mobile-first approach
+- Test content width on various screen sizes
+- Maintain glassmorphism effects across breakpoints
+
+---
+*Last Updated: September 2025*
+*These rules ensure consistent performance optimization and maintainable CSS architecture.*

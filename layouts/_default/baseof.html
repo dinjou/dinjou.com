@@ -6,17 +6,9 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     
-    <!-- Glassmorphism CSS -->
-    <link rel="stylesheet" href="{{ "css/glassmorphism.css" | relURL }}?v={{ now.Unix }}">
-    
-    <!-- Blog-specific CSS -->
-    <link rel="stylesheet" href="{{ "css/blog.css" | relURL }}?v={{ now.Unix }}">
-    
-    <!-- Portfolio fixes CSS -->
-    <link rel="stylesheet" href="{{ "css/portfolio-fixes.css" | relURL }}?v={{ now.Unix }}">
-    
-    <!-- Emergency blog fixes CSS (loaded last to override all other styles) -->
-    <link rel="stylesheet" href="{{ "css/blog-fix.css" | relURL }}?v={{ now.Unix }}">
+    <!-- Consolidated and optimized CSS via Hugo Pipes -->
+    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

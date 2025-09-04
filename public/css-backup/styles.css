@@ -1,0 +1,374 @@
+/* Fonts */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+main{
+    padding: 5%;
+    flex-grow: 1;
+}
+
+hr{
+    
+}
+
+/* Flexbox for header-content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Header center section with title and navigation */
+.header-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Main navigation */
+.main-nav {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.main-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+.main-nav a.active {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-weight: 700;
+}
+
+/* Profile link styling */
+.profile-link {
+    text-decoration: none;
+}
+
+.profile-link:hover .circular-photo {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Profile picture styling */
+.circular-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--stroke-color);
+    transition: border-color 0.3s;
+}
+
+/* Title stays centered when viewport is narrow */
+.page-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+/* Icons container */
+.messages-icon, .theme-toggle {
+    font-size: 24px;
+    display: inline-block;
+    align-content: right;
+}
+
+.icon {
+    width: 24px; /* Adjust the size of the icons */
+    height: 24px;
+    filter: var(--icon-filter); /* Apply the color filter based on theme */
+    transition: filter 0.3s ease; /* Smooth transition when toggling theme */
+}
+
+
+.theme-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+/* Light mode (default) */
+:root {
+    --background-color: #efefef;
+    --text-color: #242424;
+    --stroke-color: #242424; /* Black stroke in light mode */
+    --icon-color: #242424;
+    --icon-filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    --hover-scale: 1;
+}
+
+/* Dark mode */
+body.dark {
+    --background-color: #1a1a1a;
+    --text-color: #b3e5fc;
+    --stroke-color: #b3e5fc; /* Light blue stroke in dark mode */
+    --icon-color: #b3e5fc;
+    --icon-filter: invert(76%) sepia(8%) saturate(700%) hue-rotate(166deg) brightness(101%) contrast(94%);
+
+
+}
+
+/* Fade Transitions */
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    z-index: 1;
+    border-top: 1px solid var(--text-color);
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid var(--text-color);
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+footer a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transform: translateY(-2px);
+}
+
+footer a.prev-button {
+    text-align: left;
+}
+
+footer a.next-button {
+    text-align: right;
+}
+
+/* Mobile footer adjustments */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+    }
+    
+    footer a {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    padding: 1rem 0;
+    font-family: Oswald;
+}
+
+.project-button {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.15);
+    backdrop-filter: blur(6px);
+}
+
+.project-button:hover {
+    transform: translateY(-2px) scale(1.02);
+    border-color: rgba(255,255,255,0.45);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.1);
+}
+
+.socials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid based on screen size */
+    gap: 1rem;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+.social-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: transform 0.3s;
+}
+
+.social-button:hover {
+    transform: scale(1.05);
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    filter: var(--icon-filter); /* Apply the color filter based on theme */
+    transition: filter 0.3s ease; /* Smooth transition when toggling theme */
+}
+
+/* Hide the dropdown by default */
+.dropdown-tree {
+    position: absolute;
+    top: 100%; /* Positions it just below the header */
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    transform: scaleY(0); /* Start collapsed */
+    transform-origin: top;
+}
+
+/* When visible, the dropdown expands */
+.dropdown-tree.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1); /* Expands to full height */
+}
+
+.dropdown-tree ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center links */
+}
+
+.dropdown-tree li {
+    margin: 10px 0;
+}
+
+.dropdown-tree a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.dropdown-tree a:hover {
+    text-decoration: underline;
+}
+
+/* Header title hover */
+.page-title {
+    cursor: pointer; /* Make the header clickable */
+}
+
+
+/* Mobile navigation adjustments */
+@media (max-width: 768px) {
+    .main-nav {
+        gap: 0.5rem;
+    }
+    
+    .main-nav a {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.9rem;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .header-center {
+        order: 2;
+    }
+    
+    .header-icons {
+        order: 3;
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+/* Desktop adjustments */
+@media (min-width: 769px) {
+    .header-content {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .projects-container {
+        flex-direction: row;
+        width: 100%;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .project-button {
+        max-width: 47.5%;
+        height: 180px;
+    }
+}

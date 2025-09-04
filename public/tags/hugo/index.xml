@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>https://dinjou.com/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dinjou.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building My Website with AI: A Non-Web Developer&#39;s Journey</title>
-      <link>https://dinjou.com/blog/personal/building-my-website-with-ai/</link>
+      <link>http://localhost:1313/blog/personal/building-my-website-with-ai/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/personal/building-my-website-with-ai/</guid>
+      <guid>http://localhost:1313/blog/personal/building-my-website-with-ai/</guid>
       <description>&lt;h2 id=&#34;-a-website-for-a-non-web-developer&#34;&gt;🌐 A Website for a Non-Web Developer&lt;/h2&gt;&#xA;&lt;p&gt;One extraordinarily valid question to ask me here is this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Why didn&amp;rsquo;t you use like, Squarespace or something?&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Well, the answer is simple: I enjoy building my own things. I could use a pre-baked solution, but I enjoy knowing that I can get my hands under the hood, rip out the guts and start anew if I really want to.&lt;/p&gt;&#xA;&lt;p&gt;See, I started off building dinky little games in Game Maker 7 when I was a kid, and though I never really went deep on any particular discipline of software development, I have worked in many languages over the years. In college, I did some web-dev 101, and while I definitely didn&amp;rsquo;t gravitate toward it, I can appreciate that it&amp;rsquo;s a useful skill. I figured, &amp;ldquo;Hey, I know how to run my own webserver, I know enough web-dev to be dangerous, and with AI to augment that I betcha I can make something nice, something that I like without paying for a service I don&amp;rsquo;t need.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>https://dinjou.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dinjou.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>
-      <link>https://dinjou.com/categories/personal/</link>
+      <link>http://localhost:1313/categories/personal/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/personal/</guid>
+      <guid>http://localhost:1313/categories/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://dinjou.com/categories/technology/</link>
+      <link>http://localhost:1313/categories/technology/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/technology/</guid>
+      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Professional</title>
-      <link>https://dinjou.com/categories/professional/</link>
+      <link>http://localhost:1313/categories/professional/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/professional/</guid>
+      <guid>http://localhost:1313/categories/professional/</guid>
       <description></description>
     </item>
     <item>
       <title>Academic</title>
-      <link>https://dinjou.com/categories/academic/</link>
+      <link>http://localhost:1313/categories/academic/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/academic/</guid>
+      <guid>http://localhost:1313/categories/academic/</guid>
       <description></description>
     </item>
     <item>
       <title>Ctf</title>
-      <link>https://dinjou.com/categories/ctf/</link>
+      <link>http://localhost:1313/categories/ctf/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/ctf/</guid>
+      <guid>http://localhost:1313/categories/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Work</title>
-      <link>https://dinjou.com/categories/work/</link>
+      <link>http://localhost:1313/categories/work/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/work/</guid>
+      <guid>http://localhost:1313/categories/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
-      <link>https://dinjou.com/categories/data-science/</link>
+      <link>http://localhost:1313/categories/data-science/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/data-science/</guid>
+      <guid>http://localhost:1313/categories/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://dinjou.com/categories/cybersecurity/</link>
+      <link>http://localhost:1313/categories/cybersecurity/</link>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/cybersecurity/</guid>
+      <guid>http://localhost:1313/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Business Strategy</title>
-      <link>https://dinjou.com/categories/business-strategy/</link>
+      <link>http://localhost:1313/categories/business-strategy/</link>
       <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/business-strategy/</guid>
+      <guid>http://localhost:1313/categories/business-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analytics</title>
-      <link>https://dinjou.com/categories/data-analytics/</link>
+      <link>http://localhost:1313/categories/data-analytics/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/data-analytics/</guid>
+      <guid>http://localhost:1313/categories/data-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Community</title>
-      <link>https://dinjou.com/categories/community/</link>
+      <link>http://localhost:1313/categories/community/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/community/</guid>
+      <guid>http://localhost:1313/categories/community/</guid>
       <description></description>
     </item>
     <item>
       <title>Volunteer</title>
-      <link>https://dinjou.com/categories/volunteer/</link>
+      <link>http://localhost:1313/categories/volunteer/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/categories/volunteer/</guid>
+      <guid>http://localhost:1313/categories/volunteer/</guid>
       <description></description>
     </item>
   </channel>

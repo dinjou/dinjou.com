@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Professional on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>https://dinjou.com/categories/professional/</link>
+    <link>http://localhost:1313/categories/professional/</link>
     <description>Recent content in Professional on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dinjou.com/categories/professional/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/professional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Operations at Scale: My Experience at Smartaira</title>
-      <link>https://dinjou.com/blog/professional/smartaira-noc-experience/</link>
+      <link>http://localhost:1313/blog/professional/smartaira-noc-experience/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/professional/smartaira-noc-experience/</guid>
+      <guid>http://localhost:1313/blog/professional/smartaira-noc-experience/</guid>
       <description>&lt;p&gt;Working as a Network Operations Center Agent at Smartaira has been an incredible journey into the world of enterprise networking at scale. Managing networks across 26 states has taught me valuable lessons about infrastructure reliability, incident response, and the critical importance of network monitoring.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-scale-of-operations&#34;&gt;The Scale of Operations&lt;/h2&gt;&#xA;&lt;p&gt;When I first started at Smartaira, I was amazed by the scope of our operations. We monitor and manage enterprise networks spanning:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Network Operations Center Agent at Smartaira</title>
-      <link>https://dinjou.com/blog/professional/career/smartaira-noc/</link>
+      <link>http://localhost:1313/blog/professional/career/smartaira-noc/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/professional/career/smartaira-noc/</guid>
+      <guid>http://localhost:1313/blog/professional/career/smartaira-noc/</guid>
       <description>Managing enterprise networks across 26 states and administering CRM systems for optimal customer support.</description>
     </item>
     <item>
       <title>MAGUS - Management and Analytics Gateway for Unified Systems</title>
-      <link>https://dinjou.com/blog/personal/projects/magus/</link>
+      <link>http://localhost:1313/blog/personal/projects/magus/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/personal/projects/magus/</guid>
+      <guid>http://localhost:1313/blog/personal/projects/magus/</guid>
       <description>Network management and analytics platform for enterprise operations.</description>
     </item>
     <item>
       <title>Welcome to My Professional Blog</title>
-      <link>https://dinjou.com/blog/professional/first-professional-post/</link>
+      <link>http://localhost:1313/blog/professional/first-professional-post/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/professional/first-professional-post/</guid>
+      <guid>http://localhost:1313/blog/professional/first-professional-post/</guid>
       <description>&lt;p&gt;Welcome to my professional blog! This is where I&amp;rsquo;ll be sharing insights from my career journey, technical learnings, and thoughts on the technology industry.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be writing about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Career milestones&lt;/strong&gt; and achievements&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical insights&lt;/strong&gt; from my work in cybersecurity and network operations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry observations&lt;/strong&gt; and trends&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Professional development&lt;/strong&gt; tips and lessons learned&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-background&#34;&gt;My Background&lt;/h2&gt;&#xA;&lt;p&gt;As a Network Operations Center Agent and CRM Admin at Smartaira, I work with enterprise networks across 26 states. This role has given me valuable insights into:&lt;/p&gt;</description>
     </item>
   </channel>

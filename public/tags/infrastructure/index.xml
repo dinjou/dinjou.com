@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infrastructure on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>https://dinjou.com/tags/infrastructure/</link>
+    <link>http://localhost:1313/tags/infrastructure/</link>
     <description>Recent content in Infrastructure on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dinjou.com/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Homelab Infrastructure</title>
-      <link>https://dinjou.com/blog/personal/projects/homelab/</link>
+      <link>http://localhost:1313/blog/personal/projects/homelab/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/personal/projects/homelab/</guid>
+      <guid>http://localhost:1313/blog/personal/projects/homelab/</guid>
       <description>Self-built infrastructure for learning and experimentation.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Purpose on Spencer - Personal Blog &amp; Portfolio</title>
-    <link>https://dinjou.com/tags/purpose/</link>
+    <link>http://localhost:1313/tags/purpose/</link>
     <description>Recent content in Purpose on Spencer - Personal Blog &amp; Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dinjou.com/tags/purpose/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/purpose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Finding Purpose in Technology</title>
-      <link>https://dinjou.com/blog/personal/first-personal-post/</link>
+      <link>http://localhost:1313/blog/personal/first-personal-post/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dinjou.com/blog/personal/first-personal-post/</guid>
+      <guid>http://localhost:1313/blog/personal/first-personal-post/</guid>
       <description>&lt;p&gt;Technology has always fascinated me, but recently I&amp;rsquo;ve been thinking about the deeper purpose behind what we build and how we use it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;beyond-the-code&#34;&gt;Beyond the Code&lt;/h2&gt;&#xA;&lt;p&gt;When I first started learning about cybersecurity and network operations, I was drawn to the technical challenges. But as I&amp;rsquo;ve grown in my career, I&amp;rsquo;ve realized that the most rewarding aspects aren&amp;rsquo;t just about solving complex problems—they&amp;rsquo;re about protecting people and organizations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-human-element&#34;&gt;The Human Element&lt;/h2&gt;&#xA;&lt;p&gt;In my role monitoring networks across 26 states, I&amp;rsquo;m not just managing infrastructure. I&amp;rsquo;m helping ensure that:&lt;/p&gt;</description>
     </item>
   </channel>
